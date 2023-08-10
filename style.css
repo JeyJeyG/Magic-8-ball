@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    
+}
+
+.magic-8-ball {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.shake-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.magic-8-ball-response {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    width: 250px;
+    background-color: #fff;
+}
+
+.shake-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+img{
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+    
+}
